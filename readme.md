@@ -2,9 +2,10 @@
 
 ### 目录
 ```js
-// -h5maker 可视化设计器
+// -h5maker h5可视化设计器
 // -mobile 移动端模板
 // -server 后台
+// -pcmaker pc表单搭建、流程管理
 ```
 
 TODO
@@ -41,5 +42,7 @@ TODO
 3. 静态站点
 4. 抽奖逻辑实现
 
+#### pcmaker
+1. 使用react + ts 实现pc低代码搭建 
 
 
