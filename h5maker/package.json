@@ -1,0 +1,15 @@
+{
+	"scripts": {
+		"dev": "vite"
+	},
+	"dependencies": {
+		"dexie": "^3.2.5",
+		"lodash": "^4.17.21",
+		"vue": "^3.4.19",
+		"vue-router": "^4.2.5"
+	},
+	"devDependencies": {
+		"@vitejs/plugin-vue": "^5.0.4",
+		"vite": "^5.1.2"
+	}
+}
