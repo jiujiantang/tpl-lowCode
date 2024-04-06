@@ -1,0 +1,1044 @@
+[{
+    "extend":{
+        "title":"企明星",
+        "cacheLinks":[{
+            "control": "BG_PAGE",
+            "path": [
+                ["src", "path"],
+                ["custom", "moduleBgType"],
+                ["custom", "color"],
+                ["custom", "style"]
+            ]},{
+            "control": "BG_IMG",
+            "path": [
+                ["src", "path"],
+                ["custom", "animate"],
+                ["custom", "hidden"],
+                ["custom", "way"],
+                ["custom", "link"],
+                ["custom", "name"],
+                ["custom", "popup"],
+                ["custom", "style"]
+            ]},{
+            "control": "BG_IMG_href",
+            "path": [
+                ["src", "path"],
+                ["custom", "link"],
+                ["custom", "way"],
+                ["custom", "name"],
+                ["custom", "style"]
+            ]},{
+            "control": "P_BANNER",
+            "path": [
+                ["custom", "name"],
+                ["src", "path"],
+                ["custom", "link"],
+                ["custom", "way"],
+                ["src", "path1"],
+                ["custom", "link1"],
+                ["custom", "way1"],
+                ["src", "path2"],
+                ["custom", "link2"],
+                ["custom", "way2"],
+                ["src", "path3"],
+                ["custom", "link3"],
+                ["custom", "way3"]
+            ]}
+        ]
+    },
+    "index":0,
+    "type":"welfare",
+    "titleBg": {"name":"titleBg","type":"BG_IMG","custom":{"animate":"-1","hidden":"-1","way":"-1","popup":"-1","link":"http://m.cmbchina.com","name": "","style":{"width":"375","height":"453"}}, "src":{"path": "images/titleBg.gif"}},
+    "titleAct": {"name":"titleAct","type":"BG_IMG","custom":{"animate":"-1","hidden":"-1","way":"-1","popup":"-1","link":"http://m.cmbchina.com","name": "","style":{"width":"750","height":"129"}}, "src":{"path": "images/title-hdzq.png"}},
+    "mainBg": {"name":"mainBg","type":"BG_IMG","custom":{"animate":"-1","hidden":"-1","way":"-1","popup":"-1","link":"http://m.cmbchina.com","name": "","style":{"width":"750","height":"2820"}}, "src":{"path": "images/bg.png"}},
+    "subTitleBg": {
+        "name":"subTitleBg","type":"BG_IMG","index":0,"custom":{
+            "animate":"-1","hidden":"-1","way":"-1","popup":"-1","link":"http://m.cmbchina.com","name": "副标题背景",
+            "style":{"width":"750","height":"80"}
+        },"src":{
+            "path": "images/subTitleBg.png"
+    }},
+    "ldjyBg": {
+        "name":"ldjyBg","type":"BG_IMG","index":0,"custom":{
+            "style":{"width":"412","height":"112"},
+            "animate":"-1","hidden":"-1","way":"0","popup":"0","link":"http://m.cmbchina.com","name": "领导寄语背景"
+        },"src":{
+            "path": "images/ldjyBg.png"
+    }},
+    "t1":{"name":"t1","type":"P_WORD","index":0,"content0":"热门活动，源源不断","custom":{"style":{
+        "width": "500",
+        "height": "28",
+        "lineHeight": "28",
+        "fontSize": "28",
+        "color": "#BEA489",
+        "background": "none",
+        "textAlign": "center",
+        "fontWeight": "normal",
+        "top": "80",
+        "left": "125",
+        "letterSpacing": "1"
+    }}},
+    "t2":{"name":"t2","type":"P_WORD","index":0,"content0":"热门活动，源源不断","custom":{"style":{
+        "width": "500",
+        "height": "28",
+        "lineHeight": "28",
+        "fontSize": "28",
+        "color": "#BEA489",
+        "background": "none",
+        "textAlign": "center",
+        "fontWeight": "normal",
+        "top": "104",
+        "left": "125",
+        "letterSpacing": "1"
+    }}},
+    "subTitle":{"name":"subTitle","type":"P_WORD","index":0,"content0":"好礼送不停, 优质企业专享","custom":{"style":{
+        "width": "440",
+        "height": "34",
+        "lineHeight": "34",
+        "fontSize": "34",
+        "color": "#EBD3A5",
+        "background": "none",
+        "textAlign": "center",
+        "fontWeight": "normal",
+        "top": "302",
+        "left": "158",
+        "letterSpacing": "1"
+    }}},
+    "Leader":{"name":"Leader","type":"P_WORD","index":0,"content0":"领导寄语","custom":{"style":{
+        "width": "160",
+        "height": "32",
+        "lineHeight": "32",
+        "fontSize": "32",
+        "color": "#775C49",
+        "background": "none",
+        "textAlign": "center",
+        "fontWeight": "normal",
+        "top": "692",
+        "left": "290",
+        "letterSpacing": "1"
+    }}},
+    "couponT": {"name":"couponT","type":"BG_PAGE","index":0,"custom":{"moduleBgType":"1","color":"#000","style":{"width":"706","height":"35"}}, "src":{"path": "images/couponT.png"}},
+    "couponM": {"name":"couponM","type":"BG_PAGE","index":0,"custom":{"moduleBgType":"1","color":"#000","style":{"width":"706","height":"1"}}, "src":{"path": "images/couponM.png"}},
+    "couponB": {"name":"couponB","type":"BG_PAGE","index":0,"custom":{"moduleBgType":"1","color":"#000","style":{"width":"706","height":"48"}}, "src":{"path": "images/couponB.png"}},
+    "coupon1":  {"name":"coupon1","type":"CARD_NORMAL","index":0,
+        "custom":{
+            "animate":"1",
+            "name":"福利票券",
+            "num":2,
+            "moduleBgType":"1",
+            "btnColor":"#000",
+            "color":"#000",
+            "way":0,
+            "link":"http://m.cmbchina.com",
+            "status":0,
+            "style":{
+                "width": "628",
+                "height": "200"
+            },"style1":{"width":"174","height":"48"}
+        },
+        "src":{
+            "path": "images/coupon1.png",
+            "path1": "images/btn.png"
+        }
+    },
+    "title": {"name":"title","type":"BG_IMG","index":0,"custom":{"animate":"-1","hidden":"-1","way":"-1","popup":"-1","link":"http://m.cmbchina.com","name": "","style":{"width":"750","height":"176"}},"src":{"path": "images/title-flpz.png"}},
+    "coupon1_btnPic":{"name":"coupon1_btnPic","type":"CARD_NORMAL","index":0,"custom":{
+        "animate":"1",
+        "style":{
+            "width": "178",
+            "height": "48",
+            "top": "130",
+            "left": "40"
+        },"style1":{"width":"174","height":"48"}
+    }},
+    "coupon1_title":{"name":"coupon1_title","type":"P_WORD","index":0,"content0":"影票饭票随便领","custom":{"style":{
+        "width": "500",
+        "height": "35",
+        "lineHeight": "35",
+        "fontSize": "35",
+        "color": "#FEFEFE",
+        "background": "none",
+        "textAlign": "left",
+        "fontWeight": "900",
+        "top": "30",
+        "left": "40",
+        "letterSpacing": "1"
+    }}},
+    "coupon1_subTitle":{"name":"coupon1_subTitle","type":"P_WORD","index":0,"content0":"每日10点开抢","custom":{"style":{
+        "width": "400",
+        "height": "27",
+        "lineHeight": "27",
+        "fontSize": "27",
+        "color": "#FEFEFE",
+        "background": "none",
+        "textAlign": "left",
+        "fontWeight": "normal",
+        "top": "85",
+        "left": "40",
+        "letterSpacing": "2"
+    }}},
+    "coupon1_btn":{"name":"coupon1_btn","type":"P_WORD","index":0,"content0":"马上领","custom":{
+        "status": 0,
+        "style":{
+            "width": "178",
+            "height": "48",
+            "lineHeight": "48",
+            "fontSize": "27",
+            "color": "#323C55",
+            "background": "none",
+            "textAlign": "left",
+            "paddingLeft": "30",
+            "fontWeight": "normal"
+        }
+    }},
+    "coupon1_btn_none":{"name":"coupon1_btn_none","type":"P_WORD","index":0,"content0":"已领光","custom":{
+        "status": 1,
+        "style":{
+            "width": "178",
+            "height": "48",
+            "lineHeight": "48",
+            "fontSize": "27",
+            "color": "#323C55",
+            "background": "none",
+            "textAlign": "left",
+            "paddingLeft": "30",
+            "fontWeight": "normal"
+        }
+    }},
+    "coupon2":  {"name":"coupon2","type":"CARD_NORMAL","index":0,
+        "custom":{
+            "animate":"1",
+            "name":"福利票券",
+            "num":1,
+            "moduleBgType":"1",
+            "btnColor":"#000",
+            "color":"#000",
+            "way":0,
+            "link":"http://m.cmbchina.com",
+            "status":0, 
+            "style":{
+                "width": "628",
+                "height": "200"
+            },"style1":{"width":"174","height":"48"}
+        },
+        "src":{
+            "path": "images/coupon2.png",
+            "path1": "images/btn.png"
+        }
+    },
+    "coupon2_btnPic":{"name":"coupon2_btnPic","type":"CARD_NORMAL","index":0,"custom":{
+        "animate":"1",
+        "style":{
+            "width": "178",
+            "height": "48",
+            "top": "130",
+            "left": "40"
+        },"style1":{"width":"174","height":"48"}
+    }},
+    "coupon2_title":{"name":"coupon2_title","type":"P_WORD","index":0,"content0":"资产达标,商品票券马上拿","custom":{"style":{
+        "width": "500",
+        "height": "35",
+        "lineHeight": "35",
+        "fontSize": "35",
+        "color": "#FEFEFE",
+        "background": "none",
+        "textAlign": "left",
+        "fontWeight": "900",
+        "top": "30",
+        "left": "40",
+        "letterSpacing": "1"
+    }}},
+    "coupon2_subTitle":{"name":"coupon2_subTitle","type":"P_WORD","index":0,"content0":"每日10点开抢","custom":{"style":{
+        "width": "400",
+        "height": "27",
+        "lineHeight": "27",
+        "fontSize": "27",
+        "color": "#FEFEFE",
+        "background": "none",
+        "textAlign": "left",
+        "fontWeight": "normal",
+        "top": "85",
+        "left": "40",
+        "letterSpacing": "2"
+    }}},
+    "coupon2_btn":{"name":"coupon2_btn","type":"P_WORD","index":0,"content0":"马上领","custom":{
+        "status": 0,
+        "style":{
+        "width": "178",
+        "height": "48",
+        "lineHeight": "48",
+        "fontSize": "27",
+        "color": "#323C55",
+        "background": "none",
+        "textAlign": "left",
+        "paddingLeft": "30",
+        "fontWeight": "normal"
+    }}},
+    "coupon2_btn_none":{"name":"coupon2_btn_none","type":"P_WORD","index":0,"content0":"已领光","custom":{
+        "status": 1,
+        "style":{
+        "width": "178",
+        "height": "48",
+        "lineHeight": "48",
+        "fontSize": "27",
+        "color": "#323C55",
+        "background": "none",
+        "textAlign": "left",
+        "paddingLeft": "30",
+        "fontWeight": "normal"
+    }}},
+    "coupon3":  {"name":"coupon3","type":"CARD_NORMAL","index":0,
+        "custom":{
+            "animate":"1",
+            "name":"福利票券",
+            "num":1,
+            "moduleBgType":"1",
+            "btnColor":"#000",
+            "color":"#000",
+            "way":0,
+            "link":"http://m.cmbchina.com",
+            "status":0, 
+            "style":{
+                "width": "628",
+                "height": "200"
+            },"style1":{"width":"174","height":"48"}
+        },
+        "src":{
+            "path": "images/coupon2.png",
+            "path1": "images/btn.png"
+        }
+    },
+    "coupon3_btnPic":{"name":"coupon3_btnPic","type":"CARD_NORMAL","index":0,"custom":{
+        "animate":"1",
+        "style":{
+            "width": "178",
+            "height": "48",
+            "top": "130",
+            "left": "40"
+        },"style1":{"width":"174","height":"48"}
+    }},
+    "coupon3_title":{"name":"coupon3_title","type":"P_WORD","index":0,"content0":"资产达标,商品票券马上拿","custom":{"style":{
+        "width": "500",
+        "height": "35",
+        "lineHeight": "35",
+        "fontSize": "35",
+        "color": "#FEFEFE",
+        "background": "none",
+        "textAlign": "left",
+        "fontWeight": "900",
+        "top": "30",
+        "left": "40",
+        "letterSpacing": "1"
+    }}},
+    "coupon3_subTitle":{"name":"coupon3_subTitle","type":"P_WORD","index":0,"content0":"每日10点开抢","custom":{"style":{
+        "width": "400",
+        "height": "27",
+        "lineHeight": "27",
+        "fontSize": "27",
+        "color": "#FEFEFE",
+        "background": "none",
+        "textAlign": "left",
+        "fontWeight": "normal",
+        "top": "85",
+        "left": "40",
+        "letterSpacing": "2"
+    }}},
+    "coupon3_btn":{"name":"coupon3_btn","type":"P_WORD","index":0,"content0":"马上领","custom":{
+        "status": 0,
+        "style":{
+        "width": "178",
+        "height": "48",
+        "lineHeight": "48",
+        "fontSize": "27",
+        "color": "#323C55",
+        "background": "none",
+        "textAlign": "left",
+        "paddingLeft": "30",
+        "fontWeight": "normal"
+    }}},
+    "coupon3_btn_none":{"name":"coupon3_btn_none","type":"P_WORD","index":0,"content0":"已领光","custom":{
+        "status": 1,
+        "style":{
+        "width": "178",
+        "height": "48",
+        "lineHeight": "48",
+        "fontSize": "27",
+        "color": "#323C55",
+        "background": "none",
+        "textAlign": "left",
+        "paddingLeft": "30",
+        "fontWeight": "normal"
+    }}},
+    "coupon4":  {"name":"coupon4","type":"CARD_NORMAL","index":0,
+        "custom":{
+            "animate":"1",
+            "name":"福利票券",
+            "num":1,
+            "moduleBgType":"1",
+            "btnColor":"#000",
+            "color":"#000",
+            "way":0,
+            "link":"http://m.cmbchina.com",
+            "status":0, 
+            "style":{
+                "width": "628",
+                "height": "200"
+            },"style1":{"width":"174","height":"48"}
+        },
+        "src":{
+            "path": "images/coupon2.png",
+            "path1": "images/btn.png"
+        }
+    },
+    "coupon4_btnPic":{"name":"coupon4_btnPic","type":"CARD_NORMAL","index":0,"custom":{
+        "animate":"1",
+        "style":{
+            "width": "178",
+            "height": "48",
+            "top": "130",
+            "left": "40"
+        },"style1":{"width":"174","height":"48"}
+    }},
+    "coupon4_title":{"name":"coupon4_title","type":"P_WORD","index":0,"content0":"资产达标,商品票券马上拿","custom":{"style":{
+        "width": "500",
+        "height": "35",
+        "lineHeight": "35",
+        "fontSize": "35",
+        "color": "#FEFEFE",
+        "background": "none",
+        "textAlign": "left",
+        "fontWeight": "900",
+        "top": "30",
+        "left": "40",
+        "letterSpacing": "1"
+    }}},
+    "coupon4_subTitle":{"name":"coupon4_subTitle","type":"P_WORD","index":0,"content0":"每日10点开抢","custom":{"style":{
+        "width": "400",
+        "height": "27",
+        "lineHeight": "27",
+        "fontSize": "27",
+        "color": "#FEFEFE",
+        "background": "none",
+        "textAlign": "left",
+        "fontWeight": "normal",
+        "top": "85",
+        "left": "40",
+        "letterSpacing": "2"
+    }}},
+    "coupon4_btn":{"name":"coupon4_btn","type":"P_WORD","index":0,"content0":"马上领","custom":{
+        "status": 0,
+        "style":{
+        "width": "178",
+        "height": "48",
+        "lineHeight": "48",
+        "fontSize": "27",
+        "color": "#323C55",
+        "background": "none",
+        "textAlign": "left",
+        "paddingLeft": "30",
+        "fontWeight": "normal"
+    }}},
+    "coupon4_btn_none":{"name":"coupon4_btn_none","type":"P_WORD","index":0,"content0":"已领光","custom":{
+        "status": 1,
+        "style":{
+        "width": "178",
+        "height": "48",
+        "lineHeight": "48",
+        "fontSize": "27",
+        "color": "#323C55",
+        "background": "none",
+        "textAlign": "left",
+        "paddingLeft": "30",
+        "fontWeight": "normal"
+    }}}
+},{
+    "index":1,
+    "type":"welfare",
+    "couponT": {"name":"couponT","type":"BG_PAGE","index":1,"custom":{"moduleBgType":"1","color":"#000","style":{"width":"706","height":"35"}}, "src":{"path": "images/couponT.png"}},
+    "couponM": {"name":"couponM","type":"BG_PAGE","index":1,"custom":{"moduleBgType":"1","color":"#000","style":{"width":"706","height":"1"}}, "src":{"path": "images/couponM.png"}},
+    "couponB": {"name":"couponB","type":"BG_PAGE","index":1,"custom":{"moduleBgType":"1","color":"#000","style":{"width":"706","height":"48"}}, "src":{"path": "images/couponB.png"}},
+    "t2":{"name":"t2","type":"P_WORD","index":1,"content0":"热门活动，源源不断","custom":{"style":{
+        "width": "500",
+        "height": "28",
+        "lineHeight": "28",
+        "fontSize": "28",
+        "color": "#BEA489",
+        "background": "none",
+        "textAlign": "center",
+        "fontWeight": "normal",
+        "top": "110",
+        "left": "125",
+        "letterSpacing": "1"
+    }}},
+    "coupon1":  {"name":"coupon1","type":"CARD_NORMAL","index":1,
+        "custom":{
+            "animate":"1",
+            "name":"薪享理财",
+            "num":3,
+            "moduleBgType":"1",
+            "btnColor":"#000",
+            "color":"#000",
+            "way":0,
+            "link":"http://m.cmbchina.com",
+            "status":0, 
+            "style":{
+                "width": "628",
+                "height": "166"
+            },"style1":{"width":"110","height":"110"}
+        },
+        "src":{
+            "path": "images/coupon01.png",
+            "path1": "images/btn_buy.png"
+        }
+    },
+    "title": {"name":"title","type":"BG_IMG","index":1,"custom":{"animate":"-1","hidden":"-1","way":"-1","popup":"-1","link":"http://m.cmbchina.com","name": "","style":{"width":"750","height":"192"}},"src":{"path": "images/title-xxlz.png"}},
+    "coupon1_btnPic":{"name":"coupon1_btnPic","type":"CARD_NORMAL","index":1,"custom":{
+        "animate":"1",
+        "style":{
+            "width": "110",
+            "height": "110",
+            "top": "28",
+            "left": "480"
+        },"style1":{"width":"110","height":"110"}
+    }},
+    "coupon1_title":{"name":"coupon1_title","type":"P_WORD","index":1,"content0":"聚益生金系列90天A款","custom":{"style":{
+        "width": "500",
+        "height": "35",
+        "lineHeight": "35",
+        "fontSize": "35",
+        "color": "#FEFEFE",
+        "background": "none",
+        "textAlign": "left",
+        "fontWeight": "normal",
+        "top": "35",
+        "left": "40",
+        "letterSpacing": "1"
+    }}},
+    "coupon1_subTitle":{"name":"coupon1_subTitle","type":"P_WORD","index":1,"content0":"1万元起购|期限3个月","custom":{"style":{
+        "width": "400",
+        "height": "27",
+        "lineHeight": "27",
+        "fontSize": "27",
+        "color": "#FEFEFE",
+        "background": "none",
+        "textAlign": "left",
+        "fontWeight": "normal",
+        "top": "100",
+        "left": "40",
+        "letterSpacing": "2"
+    }}},
+    "coupon1_btn":{"name":"coupon1_btn","type":"P_WORD","index":1,"content0":"点击购买","custom":{
+        "status": 0,
+        "style":{
+        "width": "110",
+        "height": "66",
+        "lineHeight": "33",
+        "fontSize": "27",
+        "color": "#323C55",
+        "background": "none",
+        "textAlign": "center",
+        "fontWeight": "600",
+        "top": "20",
+        "left": "0",
+        "paddingLeft": "20",
+        "paddingRight": "20",
+        "letterSpacing": "3"
+    }}},
+    "coupon1_btn_none":{"name":"coupon1_btn_none","type":"P_WORD","index":1,"content0":"已抢光","custom":{
+        "status": 1,
+        "style":{
+        "width": "110",
+        "height": "66",
+        "lineHeight": "33",
+        "fontSize": "27",
+        "color": "#323C55",
+        "background": "none",
+        "textAlign": "center",
+        "fontWeight": "600",
+        "top": "20",
+        "left": "0",
+        "paddingLeft": "20",
+        "paddingRight": "20",
+        "letterSpacing": "3"
+    }}},
+    "coupon2":  {"name":"coupon2","type":"CARD_NORMAL","index":1,
+        "custom":{
+            "animate":"1",
+            "name":"薪享理财",
+            "num":1,
+            "moduleBgType":"1",
+            "btnColor":"#000",
+            "color":"#000",
+            "way":0,
+            "link":"http://m.cmbchina.com",
+            "status":0, 
+            "style":{
+                "width": "628",
+                "height": "166"
+            },"style1":{"width":"110","height":"110"}
+        },
+        "src":{
+            "path": "images/coupon02.png",
+            "path1": "images/btn_buy.png"
+        }
+    },
+    "coupon2_btnPic":{"name":"coupon2_btnPic","type":"CARD_NORMAL","index":1,"custom":{
+        "animate":"1",
+        "style":{
+            "width": "110",
+            "height": "110",
+            "top": "28",
+            "left": "480"
+        },"style1":{"width":"110","height":"110"}
+    }},
+    "coupon2_title":{"name":"coupon2_title","type":"P_WORD","index":1,"content0":"聚益生金系列90天A款","custom":{"style":{
+        "width": "500",
+        "height": "35",
+        "lineHeight": "35",
+        "fontSize": "35",
+        "color": "#FEFEFE",
+        "background": "none",
+        "textAlign": "left",
+        "fontWeight": "normal",
+        "top": "35",
+        "left": "40",
+        "letterSpacing": "1"
+    }}},
+    "coupon2_subTitle":{"name":"coupon2_subTitle","type":"P_WORD","index":1,"content0":"1万元起购|期限3个月","custom":{"style":{
+        "width": "400",
+        "height": "27",
+        "lineHeight": "27",
+        "fontSize": "27",
+        "color": "#FEFEFE",
+        "background": "none",
+        "textAlign": "left",
+        "fontWeight": "normal",
+        "top": "100",
+        "left": "40",
+        "letterSpacing": "2"
+    }}},
+    "coupon2_btn":{"name":"coupon2_btn","type":"P_WORD","index":1,"content0":"点击购买","custom":{
+        "status": 0,
+        "style":{
+        "width": "110",
+        "height": "66",
+        "lineHeight": "33",
+        "fontSize": "27",
+        "color": "#323C55",
+        "background": "none",
+        "textAlign": "center",
+        "fontWeight": "600",
+        "top": "20",
+        "left": "0",
+        "paddingLeft": "20",
+        "paddingRight": "20",
+        "letterSpacing": "3"
+    }}},
+    "coupon2_btn_none":{"name":"coupon2_btn_none","type":"P_WORD","index":1,"content0":"已抢光","custom":{
+        "status": 1,
+        "style":{
+        "width": "110",
+        "height": "66",
+        "lineHeight": "33",
+        "fontSize": "27",
+        "color": "#323C55",
+        "background": "none",
+        "textAlign": "center",
+        "fontWeight": "600",
+        "top": "20",
+        "left": "0",
+        "paddingLeft": "20",
+        "paddingRight": "20",
+        "letterSpacing": "3"
+    }}},
+    "coupon3":  {"name":"coupon3","type":"CARD_NORMAL","index":1,
+        "custom":{
+            "animate":"1",
+            "name":"薪享理财",
+            "num":1,
+            "moduleBgType":"1",
+            "btnColor":"#000",
+            "color":"#000",
+            "way":0,
+            "link":"http://m.cmbchina.com",
+            "status":0, 
+            "style":{
+                "width": "628",
+                "height": "166"
+            },"style1":{"width":"110","height":"110"}
+        },
+        "src":{
+            "path": "images/coupon03.png",
+            "path1": "images/btn_buy.png"
+        }
+    },
+    "coupon3_btnPic":{"name":"coupon3_btnPic","type":"CARD_NORMAL","index":1,"custom":{
+        "animate":"1",
+        "style":{
+            "width": "110",
+            "height": "110",
+            "top": "28",
+            "left": "480"
+        },"style1":{"width":"110","height":"110"}
+    }},
+    "coupon3_title":{"name":"coupon3_title","type":"P_WORD","index":1,"content0":"聚益生金系列90天A款","custom":{"style":{
+        "width": "500",
+        "height": "35",
+        "lineHeight": "35",
+        "fontSize": "35",
+        "color": "#FEFEFE",
+        "background": "none",
+        "textAlign": "left",
+        "fontWeight": "normal",
+        "top": "35",
+        "left": "40",
+        "letterSpacing": "1"
+    }}},
+    "coupon3_subTitle":{"name":"coupon3_subTitle","type":"P_WORD","index":1,"content0":"1万元起购|期限3个月","custom":{"style":{
+        "width": "400",
+        "height": "27",
+        "lineHeight": "27",
+        "fontSize": "27",
+        "color": "#FEFEFE",
+        "background": "none",
+        "textAlign": "left",
+        "fontWeight": "normal",
+        "top": "100",
+        "left": "40",
+        "letterSpacing": "2"
+    }}},
+    "coupon3_btn":{"name":"coupon3_btn","type":"P_WORD","index":1,"content0":"点击购买","custom":{
+        "status": 0,
+        "style":{
+        "width": "110",
+        "height": "66",
+        "lineHeight": "33",
+        "fontSize": "27",
+        "color": "#323C55",
+        "background": "none",
+        "textAlign": "center",
+        "fontWeight": "600",
+        "top": "20",
+        "left": "0",
+        "paddingLeft": "20",
+        "paddingRight": "20",
+        "letterSpacing": "3"
+    }}},
+    "coupon3_btn_none":{"name":"coupon3_btn_none","type":"P_WORD","index":1,"content0":"已抢光","custom":{
+        "status": 1,
+        "style":{
+        "width": "110",
+        "height": "66",
+        "lineHeight": "33",
+        "fontSize": "27",
+        "color": "#323C55",
+        "background": "none",
+        "textAlign": "center",
+        "fontWeight": "600",
+        "top": "20",
+        "left": "0",
+        "paddingLeft": "20",
+        "paddingRight": "20",
+        "letterSpacing": "3"
+    }}},
+    "coupon4":  {"name":"coupon4","type":"CARD_NORMAL","index":1,
+        "custom":{
+            "animate":"1",
+            "name":"薪享理财",
+            "num":1,
+            "moduleBgType":"1",
+            "btnColor":"#000",
+            "color":"#000",
+            "way":0,
+            "link":"http://m.cmbchina.com",
+            "status":0, 
+            "style":{
+                "width": "628",
+                "height": "166"
+            },"style1":{"width":"110","height":"110"}
+        },
+        "src":{
+            "path": "images/coupon03.png",
+            "path1": "images/btn_buy.png"
+        },"style1":{"width":"110","height":"110"}
+    },
+    "coupon4_btnPic":{"name":"coupon4_btnPic","type":"CARD_NORMAL","index":1,"custom":{
+        "style":{
+            "animate":"1",
+            "width": "110",
+            "height": "110",
+            "top": "28",
+            "left": "480"
+        },"style1":{"width":"110","height":"110"}
+    }},
+    "coupon4_title":{"name":"coupon4_title","type":"P_WORD","index":1,"content0":"聚益生金系列90天A款","custom":{
+        "animate":"1",
+        "style":{
+        "width": "500",
+        "height": "35",
+        "lineHeight": "35",
+        "fontSize": "35",
+        "color": "#FEFEFE",
+        "background": "none",
+        "textAlign": "left",
+        "fontWeight": "normal",
+        "top": "35",
+        "left": "40",
+        "letterSpacing": "1"
+    }}},
+    "coupon4_subTitle":{"name":"coupon4_subTitle","type":"P_WORD","index":1,"content0":"1万元起购|期限3个月","custom":{"style":{
+        "width": "400",
+        "height": "27",
+        "lineHeight": "27",
+        "fontSize": "27",
+        "color": "#FEFEFE",
+        "background": "none",
+        "textAlign": "left",
+        "fontWeight": "normal",
+        "top": "100",
+        "left": "40",
+        "letterSpacing": "2"
+    }}},
+    "coupon4_btn":{"name":"coupon4_btn","type":"P_WORD","index":1,"content0":"点击购买","custom":{
+        "status": 0,
+        "style":{
+        "width": "110",
+        "height": "66",
+        "lineHeight": "33",
+        "fontSize": "27",
+        "color": "#323C55",
+        "background": "none",
+        "textAlign": "center",
+        "fontWeight": "600",
+        "top": "20",
+        "left": "0",
+        "paddingLeft": "20",
+        "paddingRight": "20",
+        "letterSpacing": "3"
+    }}},
+    "coupon4_btn_none":{"name":"coupon4_btn_none","type":"P_WORD","index":1,"content0":"已抢光","custom":{
+        "status": 1,
+        "style":{
+        "width": "110",
+        "height": "66",
+        "lineHeight": "33",
+        "fontSize": "27",
+        "color": "#323C55",
+        "background": "none",
+        "textAlign": "center",
+        "fontWeight": "600",
+        "top": "20",
+        "left": "0",
+        "paddingLeft": "20",
+        "paddingRight": "20",
+        "letterSpacing": "3"
+    }}}
+},{
+    "index":2,
+    "type":"onlyOneBanner",
+    "couponT": {"name":"couponT","type":"BG_PAGE","index":2,"custom":{"moduleBgType":"1","color":"#000","style":{"width":"706","height":"35"}}, "src":{"path": "images/couponT.png"}},
+    "couponM": {"name":"couponM","type":"BG_PAGE","index":2,"custom":{"moduleBgType":"1","color":"#000","style":{"width":"706","height":"1"}}, "src":{"path": "images/couponM.png"}},
+    "couponB": {"name":"couponB","type":"BG_PAGE","index":2,"custom":{"moduleBgType":"1","color":"#000","style":{"width":"706","height":"48"}}, "src":{"path": "images/couponB.png"}},
+    "title": {"name":"title","type":"BG_IMG","index":2,"custom":{"animate":"-1","hidden":"-1","way":"-1","popup":"-1","link":"http://m.cmbchina.com","name": "","style":{"width":"750","height":"73"}},"src":{"path": "images/title-4.png"}},
+    "ad": {"name":"ad","type":"BG_IMG_href","custom":{
+        "animate":"-1","hidden":"-1","popup":"-1",
+        "link":"http://m.cmbchina.com",
+        "way": 0,
+        "name": "底部banner",
+        "style":{"width":"636","height":"180"}
+    }, 
+    "src":{
+        "path": "images/bottom_banner.png"
+    }}
+},{
+    "index": 3,
+    "type": "banner",
+    "frame": {"name":"frame","type":"BG_IMG","index":3,"custom":{"animate":"-1","hidden":"-1","way":"-1","popup":"-1","link":"http://m.cmbchina.com","name": "","style":{"width":"650","height":"228"}},"src":{"path": "images/banner.png"}},
+    "banner": {"name":"banner","type":"P_BANNER","index":3,"custom":{
+        "style":{"width":"650","height":"228"},
+        "animate":"-1",
+        "name":"轮播图",
+        "link":"http://m.cmbchina.com",
+        "link1":"http://m.cmbchina.com",
+        "link2":"http://m.cmbchina.com",
+        "link3":"http://m.cmbchina.com",
+        "way":"0",
+        "way1":"0",
+        "way2":"0",
+        "way3":"0"
+    },"src":{
+        "path": "images/gift.png",
+        "path1": "images/gift.png",
+        "path2": "images/gift.png",
+        "path3": "images/banner.png"
+    }},
+    "banner1_title":{"name":"banner1_title","type":"P_WORD","index":3,"content0":"这里是主标题","custom":{"style":{
+        "width": "260",
+        "height": "35",
+        "lineHeight": "35",
+        "fontSize": "32",
+        "color": "#373B46",
+        "background": "none",
+        "textAlign": "left",
+        "fontWeight": "600",
+        "top": "66",
+        "left": "60"
+    }}},
+    "banner2_title":{"name":"banner2_title","type":"P_WORD","index":3,"content0":"这里是主标题","custom":{"style":{
+        "width": "260",
+        "height": "35",
+        "lineHeight": "35",
+        "fontSize": "32",
+        "color": "#373B46",
+        "background": "none",
+        "textAlign": "left",
+        "fontWeight": "600",
+        "top": "66",
+        "left": "60"
+    }}},
+    "banner3_title":{"name":"banner3_title","type":"P_WORD","index":3,"content0":"这里是主标题","custom":{"style":{
+        "width": "260",
+        "height": "35",
+        "lineHeight": "35",
+        "fontSize": "32",
+        "color": "#373B46",
+        "background": "none",
+        "textAlign": "left",
+        "fontWeight": "600",
+        "top": "66",
+        "left": "60"
+    }}},
+    "banner1_subtTitle":{"name":"banner1_subtTitle","type":"P_WORD","index":3,"content0":"抽华为mate30pro","custom":{"style":{
+        "width": "260",
+        "height": "35",
+        "lineHeight": "35",
+        "fontSize": "28",
+        "color": "#373B46",
+        "background": "none",
+        "textAlign": "left",
+        "fontWeight": "normal",
+        "top": "106",
+        "left": "60"
+    }}},
+    "banner2_subtTitle":{"name":"banner2_subtTitle","type":"P_WORD","index":3,"content0":"抽华为mate30pro","custom":{"style":{
+        "width": "260",
+        "height": "35",
+        "lineHeight": "35",
+        "fontSize": "28",
+        "color": "#373B46",
+        "background": "none",
+        "textAlign": "left",
+        "fontWeight": "normal",
+        "top": "106",
+        "left": "60"
+    }}},
+    "banner3_subtTitle":{"name":"banner3_subtTitle","type":"P_WORD","index":3,"content0":"抽华为mate30pro","custom":{"style":{
+        "width": "260",
+        "height": "35",
+        "lineHeight": "35",
+        "fontSize": "28",
+        "color": "#373B46",
+        "background": "none",
+        "textAlign": "left",
+        "fontWeight": "normal",
+        "top": "106",
+        "left": "60"
+    }}}
+},{
+    "index": 4,
+    "type": "footer",
+    "footer": {"name":"footer","type":"BG_PAGE","index":4,
+        "custom":{
+            "moduleBgType":"1",
+            "color":"#000", 
+            "style":{
+                "width": "750",
+                "height": "225"
+            }
+        }, 
+        "src":{
+            "path": "images/footer.png"
+        }
+    },
+    "footer_tip_1":{"name":"footer_tip_1","type":"P_WORD","index":4,"content0":"基金过往业绩并不预示其未来表现","custom":{"style":{
+        "width": "750",
+        "height": "35",
+        "lineHeight": "35",
+        "fontSize": "22",
+        "color": "#E2D9B8",
+        "background": "none",
+        "textAlign": "center",
+        "fontWeight": "normal",
+        "top": "106",
+        "left": "0"
+    }}},
+    "footer_tip_2":{"name":"footer_tip_2","type":"P_WORD","index":4,"content0":"市场有风险，投资需谨慎","custom":{"style":{
+        "width": "750",
+        "height": "35",
+        "lineHeight": "35",
+        "fontSize": "22",
+        "color": "#E2D9B8",
+        "background": "none",
+        "textAlign": "center",
+        "fontWeight": "normal",
+        "top": "146",
+        "left": "0"
+    }}}
+},{
+    "index": 5,
+    "type": "rule",
+    "ruleBtn": {"name":"ruleBtn","type":"BG_IMG","index":5,"custom":{
+        "animate":"2",
+        "hidden":"0",
+        "way":"0",
+        "popup":"0",
+        "link":"http://m.cmbchina.com",
+        "name": "企业福利",
+        "style": {
+            "width": "164",
+            "height": "187",
+            "top": "580",
+            "left": "586"
+        }
+    }, "src":{"path": "images/ruleBtn.png"}},
+    "ruleBg": {"name":"ruleBg","type":"BG_IMG","index":5,"custom":{
+        "style":{"width":"643","height":"800"},
+        "animate":"-1",
+        "hidden":"-1",
+        "way":"-1",
+        "popup":"-1",
+        "link":"http://m.cmbchina.com",
+        "name": ""
+    }, "src":{"path": "images/ruleBg.png"}},
+    "rule":{"name":"rule","type":"P_WORD","content0":"领导寄语","custom":{"style":{
+        "width": "520",
+        "lineHeight": "28",
+        "fontSize": "18",
+        "color": "#000",
+        "background": "none",
+        "textAlign": "left",
+        "fontWeight": 300,
+        "top":"0",
+        "left":"0"
+    }}},
+    "messageBg": {"name":"messageBg","type":"BG_IMG","index":5,"custom":{
+        "style":{"width":"643","height":"800"},
+        "animate":"-1",
+        "hidden":"-1",
+        "way":"-1",
+        "popup":"0",
+        "link":"http://m.cmbchina.com",
+        "name": ""
+    }, "src":{"path": "images/ruleQyfl.png"}},
+    "message":{"name":"message","type":"P_WORD","content0":"企业福利","custom":{"style":{
+        "width": "520",
+        "lineHeight": "28",
+        "fontSize": "18",
+        "color": "#000",
+        "background": "none",
+        "textAlign": "left",
+        "fontWeight": 300,
+        "top":"0",
+        "left":"0"
+    }}}
+}]

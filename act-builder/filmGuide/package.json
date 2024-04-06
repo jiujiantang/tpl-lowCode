@@ -1,0 +1,10 @@
+{
+  "name": "filmguide",
+  "version": "1.0.0",
+  "description": "观影指南模板移动端",
+  "main": "index.js",
+  "scripts": {
+    "test": "dev"
+  },
+  "author": ""
+}

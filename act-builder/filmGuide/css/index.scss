@@ -1,0 +1,560 @@
+html,body,div,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,iframe,input,textarea,select,label,article,aside,footer,header,menu,nav,section,time,audio,video{margin:0;padding:0;}
+article,aside,footer,header,hgroup,nav,section,audio,canvas,video{display:block;}
+body{font-size:100%;font-family:'Microsoft YaHei', 'Helvitica', 'Verdana', 'Tohoma', 'Arial', 'san-serif',Helvetica,STHeiti,Droid Sans Fallback;font-size:30px; color:#333; -webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;-webkit-tap-highlight-color:rgba(0,0,0,0);}
+textarea{resize:none;}
+iframe,img{border:0;}
+li,ul,ol{list-style:none;}
+input,select,textarea{outline:0;-webkit-user-modify:read-write-plaintext-only;}
+input{-webkit-appearance:none;}
+a{text-decoration:none;}
+*,::before,::after{padding: 0;margin: 0;-webkit-tap-highlight-color: transparent;}
+.clearfix::after,
+.clearfix::before{content: ".";line-height: 0;height: 0;display: block;visibility: hidden;clear: both;}
+.fl{float:left;} .fr{float: right;}
+
+@function to($px){
+    @return $px / ( 40 * 75/64 ) * 1rem ;
+}
+@mixin bg( $src ) {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url($src);
+}
+// TODO 配置域名 vscode的插件Easy Sass 可以在保存文件时编译scss
+$fontUrl:"../images/";
+$specialBgT: $fontUrl + "specialBgT.png";
+$specialBgM: $fontUrl + "specialBgM.png";
+$specialBgB: $fontUrl + "specialBgB.png";
+$newsBg: $fontUrl + "newsBg.png";
+$adBg: $fontUrl + "adBg.png";
+$stickyBtn: $fontUrl + "stickyBtn.png";
+$priceBtnActive: $fontUrl + "priceBtnActive.png";
+$priceBg: $fontUrl + "priceBg.png";
+$rightsBg: $fontUrl + "rightsBg.png";
+$rightsBg1: $fontUrl + "rightsBg1.png";
+$hotLeft: $fontUrl + "hotLeft.png";
+$cover: $fontUrl + "cover.png";
+$iconCat: $fontUrl + "iconCat.png";
+$ruleBtn: $fontUrl + "ruleBtn.png";
+$ruleBg: $fontUrl + "ruleBg.png";
+$share_tips: $fontUrl + "share_tips.png";
+
+html,body {
+    width: to(750);
+}
+.app {
+    .mt10 {
+        margin-top: to(12) !important;
+    }
+    .shareMask {
+        width: 100%;
+        height: 100%;
+        background: rgba(0,0,0,0.7);
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 9;
+    }
+    .shareTip {
+        width: to(474);
+        height: to(344);
+        @include bg($share_tips);
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    .hide {
+        display: none ;
+    }
+    .doHide {
+        display: none !important;
+    }
+    .mask {
+        width: 100%;
+        height: 100%;
+        background: rgba(0,0,0,0.7);
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 9;
+        .ruleBg {
+            width: to(616);
+            height: to(590);
+            @include bg($ruleBg);
+            margin: 0 auto;
+            margin-top: to(300);
+            .h1 {
+                width: to(616); 
+            }
+        }
+    }
+    .rule {
+        width: 11rem;
+        margin: 0 auto;
+        margin-top: to(10);
+    }
+    .mt20 {
+        margin-top: to(40) !important;
+    }
+    .h1, .h2 {
+        width: to(700);
+        height: to(52);
+        line-height: to(52);
+        font-size: to(52);
+        color: #FEE4C3;
+        background: none;
+        text-align: center;
+        font-weight: 300;
+    }
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin: 0;
+    img {
+        width: to(750);
+        height: auto;
+        overflow: hidden;
+        vertical-align: bottom;
+        margin: 0;
+    }
+    .wrap {
+        position: absolute;
+        top: to(500);
+        left: 0;
+        width: 100%;
+        height: auto;
+        // position: relative;
+        .ruleBtn {
+            width: to(123);
+            height: to(50);
+            @include bg( $ruleBtn );
+            position: absolute;
+            top: to(-340);
+            right: 0;
+        }
+    }
+    .special {
+        width: to(700);
+        height: auto;
+        margin: 0 auto;
+        .specialBgT {
+            width: to(700);
+            height: to(40);
+            @include bg( $specialBgT );
+        }
+        .specialBgM {
+            width: to(700);
+            height: auto;
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            background-image: url($specialBgM);
+            .priceBtn {
+                width: to(154);
+                height: to(190);
+                @include bg( $priceBtnActive );
+                position: relative;
+                margin-left: to(510);
+                span {
+                    width: to(30);
+                    height: to(158);
+                    line-height: to(40);
+                    font-size: to(30);
+                    color: #fff;
+                    background: none;
+                    text-align: left;
+                    font-Weight: 900;
+                    top: to(16);
+                    left: to(90);
+                    display: inline-block;
+                    position: absolute;
+                }
+                .priceBg {
+                    width: to(527);
+                    height: to(190);
+                    @include bg( $priceBg );
+                    position: absolute;
+                    top: 0;
+                    left: to(52-527);
+                    .mark {
+                        width: to(188);
+                        height: to(48);
+                        line-height: to(48);
+                        font-size: to(24);
+                        color: #FEDFC0;
+                        background: none;
+                        text-align: center;
+                    }
+                    .title {
+                        width: to(434);
+                        height: to(36);
+                        line-height: to(36);
+                        font-size: to(36);
+                        color: #7F5E4D;
+                        background: none;
+                        text-align: left;
+                        font-weight: 900;
+                        top: to(74);
+                        left: to(50);
+                        letter-spacing: to(2);
+                        position: absolute;
+                    }
+                    .subTitle {
+                        width: to(434);
+                        height: to(30);
+                        line-height: to(30);
+                        font-size: to(30);
+                        color: #B8A38E;
+                        background: none;
+                        text-align: left;
+                        font-weight: 600;
+                        top: to(120);
+                        left: to(50);
+                        letter-spacing: to(4);
+                        position: absolute;
+                    }
+                }
+            }
+            .rightsBg {
+                width: to(280);
+                height: to(335);
+                @include bg( $rightsBg );
+                position: relative;
+                .rightsMark {
+                    width: to(188);
+                    height: to(48);
+                    line-height: to(48);
+                    font-size: to(24);
+                    color: #FEDFC0;
+                    background: none;
+                    text-align: center;
+                    top: to(22);
+                    left: to(138);
+                    transform: rotate(40deg) scale(.8);
+                    -webkit-transform: rotate(40deg) scale(.8);
+                    position: absolute;
+                }
+                .rightsTitle {
+                    width: to(224);
+                    height: to(80);
+                    line-height: to(80);
+                    font-size: to(80);
+                    color: #8F6F48;
+                    background: none;
+                    text-align: center;
+                    top: to(70);
+                    left: to(26);
+                    letter-spacing: to(2);
+                    position: absolute;
+                }
+                .rightsSubTitle {
+                    width: to(224);
+                    height: to(30);
+                    line-height: to(30);
+                    font-size: to(30);
+                    color: #706352;
+                    background: none;
+                    text-align: center;
+                    font-weight: 900;
+                    top: to(170);
+                    left: to(26);
+                    letter-spacing: to(2);
+                    position: absolute;
+                }
+                .rightsRob {
+                    width: to(224);
+                    height: to(32);
+                    line-height: to(32);
+                    font-size: to(32);
+                    color: #8F6F48;
+                    background: none;
+                    text-align: center;
+                    font-weight: 900;
+                    top: to(260);
+                    left: to(26);
+                    letter-spacing: to(2);
+                    position: absolute;
+                }
+            }
+            .rightsBg1 {
+                width: to(630);
+                height: to(171);
+                position: relative;
+                @include bg( $rightsBg1 );
+                margin-left: -0.3rem;
+                .rights1Mark {
+                    width: to(188);
+                    height: to(48);
+                    line-height: to(48);
+                    font-size: to(24);
+                    color: #FEDFC0;
+                    background: none;
+                    text-align: center;
+                    top: to(20);
+                    left: to(-40);
+                    transform: rotate(-40deg) scale(.8);
+                    -webkit-transform: rotate(-40deg) scale(.8);
+                    position: absolute;
+                }
+                .rights1Title {
+                    width: to(224);
+                    height: to(80);
+                    line-height: to(80);
+                    font-size: to(80);
+                    color: #8F6F48;
+                    background: none;
+                    text-align: center;
+                    top: to(20);
+                    left: to(150);
+                    letter-spacing: to(2);
+                    position: absolute;
+                }
+                .rights1SubTitle {
+                    width: to(224);
+                    height: to(30);
+                    line-height: to(30);
+                    font-size: to(30);
+                    color: #706352;
+                    background: none;
+                    text-align: center;
+                    font-weight: 900;
+                    top: to(110);
+                    left: to(150);
+                    letter-spacing: to(2);
+                    position: absolute;
+                }
+                .rights1Rob {
+                    width: to(100);
+                    height: to(32);
+                    line-height: to(32);
+                    font-size: to(32);
+                    color: #8F6F48;
+                    background: none;
+                    text-align: center;
+                    font-weight: 900;
+                    top: to(50);
+                    left: to(490);
+                    letter-spacing: to(2);
+                    position: absolute;
+                }
+            }
+            .rightsBgWrap {
+                width: to(600);
+                margin: 0 auto;
+            }
+        }
+        .specialBgB {
+            width: to(700);
+            height: to(40);
+            @include bg( $specialBgB);
+        }
+    }
+    .news {
+        width: to(700);
+        height: to(575);
+        margin: 0 auto;
+        @include bg( $newsBg );
+        .vedio{
+            width: to(634);
+            height: to(415);
+            background: #fff;
+            margin: 0 auto;
+            margin-top: to(20);
+            position: relative;
+            border-radius: to(10);
+            -webkit-border-radius: to(10);
+            .cover {
+                width: to(634);
+                height: to(352);
+                @include bg( $cover );
+                margin: o auto;
+            }
+            .tip {
+                width: to(655);
+                height: to(44);
+                line-height: to(44);
+                font-size: to(24);
+                color: #000000;
+                background: #fff;
+                text-align: center;
+                font-weight: 900;
+                top: to(352);
+                left: to(-13);
+                transform: scale(.97);
+                -webkit-transform: scale(.95);
+                position: absolute;
+            }
+        }
+    }
+    .hot {
+        width: to(710);
+        height: to(976);
+        margin: 0 auto;
+        overflow: hidden;
+        .styleR {
+            .mark,.mark1,.mark2,.title,.title1,.title2,.subTitle,.subTitle1,.subTitle2,.btn,.btn1,.btn2 {
+                left:to(10) !important;
+            }
+        }
+        .styleL {
+            right:to(0) !important;    
+            bottom: to(0) !important;
+        }
+        .ad,.ad1,.ad2 {
+            width: to(390);
+            height: to(215);
+            background-size: 100% 100%;
+            background-repeat: no-repeat;   
+            position: absolute;
+        }
+        .hotLeft, .hotRight, .hotLeft2 {
+            width: to(710);
+            height: to(251);
+            @include bg( $hotLeft );
+            margin-top: to(40);
+            position: relative;
+            .mark,.mark1,.mark2 {
+                width: to(340);
+                height: to(24);
+                line-height: to(24);
+                font-size: to(24);
+                color: #fff;
+                background: "none";
+                text-align: left;
+                top:to(130);
+                left:to(380);
+                position: absolute;
+            }
+            .title,.title1,.title2 {
+                width: to(340);
+                height: to(32);
+                line-height: to(32);
+                font-size: to(32);
+                color: #FFE3C5;
+                background: none;
+                text-align: left;
+                font-weight: 900;
+                top: to(44);
+                left: to(400);
+                letter-spacing: to(2);
+                position: absolute;
+            }
+            .subTitle,.subTitle1,.subTitle2 {
+                width: to(340);
+                height: to(28);
+                line-height: to(28);
+                font-size: to(26);
+                color: #FFE3C5;
+                background: none;
+                text-align: left;
+                font-weight: 300;
+                top: to(90);
+                left: to(400);
+                position: absolute;
+            }
+            .btn,.btn1,.btn2 {
+                width: to(200);
+                height: to(52);
+                line-height: to(52);
+                font-size: to(28);
+                color: #fff;
+                background: #F16254;
+                text-align: center;
+                letter-spacing: to(2);
+                top:to(170);
+                left:to(380);
+                position: absolute;
+            }
+        }
+
+    }
+    .navigation {
+        width: to(366);
+        height: to(70);
+        margin: 0 auto;
+        border: solid to(2) #87B9DA;
+        border-radius: to(10);
+        -webkit-border-radius: to(10);
+        .mark {
+            width: to(366);
+            height: to(70);
+            line-height: to(70);
+            text-align: center;
+            margin: 0 auto;
+            color: #87B9DA;
+            font-size: to(30);
+        }
+    }
+    .ad {
+        width: to(711);
+        height: to(148);
+        margin: 0 auto;
+        @include bg( $adBg );
+        position: relative;
+        .iconCat {
+            width: to(116);
+            height: to(38);
+            margin: 0 auto;
+            @include bg( $iconCat );
+        }
+        .mark {
+            width: to(690);
+            height: to(48);
+            line-height: to(48);
+            font-size: to(24);
+            color: #88B9DA;
+            background: none;
+            text-align: center;
+            left: to(10);
+            top: to(80);
+            position: absolute;
+        }
+    }
+    .stickyBtn {
+        width: 100%;
+        height: to(124);
+        position: fixed;
+        bottom: 0;
+        @include bg( $stickyBtn );
+        background-size: to(710) to(124);
+        background-position: center;
+        background-color: rgba(0,0,0,0.3);
+        .mark {
+            width: to(690);
+            height: to(124);
+            line-height: to(124);
+            font-size: to(40);
+            color: #fff;
+            background: none;
+            text-align: center;
+            left: to(30);
+            top: to(0);
+            letter-spacing: to(4);
+            position: absolute;
+        }
+    }
+}
+.style1 {
+    border-radius: to(0) !important;
+    -webkit-border-radius: to(0) !important;
+}
+.style2 {
+    border-radius: to(10) !important;
+    -webkit-border-radius: to(10) !important;
+}
+.style3 {
+    border-radius: to(35) !important;
+    -webkit-border-radius: to(35) !important;
+}
+.style4 {
+    border-style: dashed !important;
+}
+.style5 {
+    border-style: solid !important;
+    border-radius: to(10) !important;
+    -webkit-border-radius: to(10) !important;
+}
+.style6 {
+    border-style: dotted !important;
+    border-radius: to(35) !important;
+    -webkit-border-radius: to(35) !important;
+}
